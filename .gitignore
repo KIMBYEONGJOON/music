@@ -1,0 +1,6 @@
+node_modules/
+dist/
+dist-electron/
+app-pkg/
+release_portable/
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "appId": "com.music.structurelyrics",
+  "asar": true,
+  "files": ["**/*"],
+  "directories": {
+    "app": "app-pkg",
+    "output": "release_portable"
+  },
+  "win": {
+    "target": ["portable"],
+    "artifactName": "MusicStructureLyricPortable-${version}.${ext}"
+  }
+}
